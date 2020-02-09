@@ -1,2 +1,2 @@
 # MyHome
-Home Page of the owner
+Owner's Home Page
