@@ -1,3 +1,4 @@
+window.onload = clock();
 function clock() {
   let toDigit = function(num) {
     let digit;
