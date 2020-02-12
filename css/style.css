@@ -32,5 +32,15 @@ body {
 
 .outerlink{
   opacity: 1;
+}
 
+#clock{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin-left: auto;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 24px;
+  background-color: rgba(0, 63, 255, 0.3);
 }
