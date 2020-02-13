@@ -1,9 +1,11 @@
 body {
   background-image: url(../img/b034.gif);
 }
+body header{
+  display: flex;
+}
 
 .linkcategorycontainer{
-  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   list-style: none;
