@@ -11,9 +11,9 @@ function clock() {
   };
 
   let months = new Array(
-      'JUN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT',
-      'NOV', 'DEC');
-  let weeks = new Array('SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT');
+      'JUN.', 'FEB.', 'MAR.', 'APR.', 'MAY.', 'JUN.', 'JUL.', 'AUG.', 'SEP.',
+      'OCT.', 'NOV.', 'DEC.');
+  let weeks = new Array('SUN.', 'MON.', 'TUE.', 'WED.', 'THU.', 'FRI.', 'SAT.');
   let meridians = new Array('a.m.', 'p.m.');
   let timeZone = 'JST';
 
