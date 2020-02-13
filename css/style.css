@@ -19,6 +19,7 @@ body {
 
 .linkcontainer{
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 
