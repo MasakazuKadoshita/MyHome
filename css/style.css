@@ -52,6 +52,8 @@ body header{
   display: flex;
   flex-direction: column;
   width: 280px;
+  justify-content: center;
+  align-items: left;
   margin-left: auto;
   padding: 10px;
   border-radius: 5px;
