@@ -5,6 +5,17 @@ body header{
   display: flex;
 }
 
+
+.contentbox{
+  display: flex;
+  list-style: none;
+}
+.contentcard {
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .linkcategorycontainer{
   display: flex;
   flex-direction: column;
