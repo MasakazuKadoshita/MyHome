@@ -5,12 +5,11 @@ body header{
   display: flex;
 }
 
-
-.contentbox{
+.contentBox{
   display: flex;
   list-style: none;
 }
-.contentcard {
+.contentCard {
   margin: 10px;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.2);
