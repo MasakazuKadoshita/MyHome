@@ -29,10 +29,10 @@ function clock() {
   let miniutes = toDigit(now.getMinutes());
   let seconds = toDigit(now.getSeconds());
 
-  document.getElementById('clock_date').innerHTML =
+  document.getElementById('clockDate').innerHTML =
       day + ', ' + month + ' ' + date + ', ' + year;
 
-  document.getElementById('clock_time').innerHTML = 'at ' + hours + ':' +
+  document.getElementById('clockTime').innerHTML = 'at ' + hours + ':' +
       miniutes + ':' + seconds + ' ' + meridian + ' ' + timeZone;
 }
 
