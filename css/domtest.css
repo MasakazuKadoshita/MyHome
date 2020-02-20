@@ -1,0 +1,33 @@
+.membersList{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+#Ellamae{
+  color: darkorchid;
+}
+
+#Brant{
+  color: aqua;
+}
+
+#Ellan{
+  color: lightslategrey;
+}
+
+#Rashida{
+  color: blue;
+}
+
+.managers{
+  font-weight: 900;
+}
+
+.members{
+  font-weight: 100;
+}
+
+.shareholders{
+  border-bottom: double 6px orange;
+}
