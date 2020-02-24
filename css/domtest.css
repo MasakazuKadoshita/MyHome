@@ -1,5 +1,6 @@
 .members-list{
   display: flex;
+  display: inline-block;
   flex-direction: column;
   list-style: none;
 }
