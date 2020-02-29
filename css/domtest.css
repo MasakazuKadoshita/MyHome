@@ -32,3 +32,8 @@
 .shareholders{
   border-bottom: double 6px orange;
 }
+
+#tree_heading{
+  font-size: 20px;
+  color: green;
+}
