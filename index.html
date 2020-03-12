@@ -1,216 +1,286 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Masakazu Kadoshita</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/domtest.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Masakazu Kadoshita</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/domtest.css">
-</head>
+  <body>
+    <clock id="clock">
+      <div id="clock_date"></div>
+      <div id="clock_time"></div>
+    </clock>
 
-<body>
-  <clock id="clock">
-    <div id="clock_date"></div>
-    <div id="clock_time"></div>
-  </clock>
+    <header>
+      <h1>SEAL's HOME</h1>
+    </header>
 
-  <header>
-    <h1>SEAL's HOME</h1>
-  </header>
-
-  <main>
-    <hr>
-    <div id="contents">
-      <h2>Contents</h2>
-      <ul class="content-box">
-        <li class="content-card"><a href="#outerlinks">Outer Links</a>
-          <ul class="content-attr-category">
-            <li>
-              <p class="content-description">The list of links to the owner's favorite sites.</p>
-            </li>
-          </ul>
-        </li>
-        <li class="content-card"><a href="#DOMtest">DOM test</a>
-          <ul class="content-attr-category">
-            <li>
-              <p class="content-description">The section for testing basic programs based on DOM.</p>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <hr>
-    <div id="DOM_test">
-      <h2>DOM test</h2>
-      <h3>Members List</h3>
-      <ul class="members-list">
-        <li id="Ellamae"></li>
-        <li id="Brant"></li>
-        <li class="managers"></li>
-        <li class="members"></li>
-        <li class="members"></li>
-        <li class="managers shareholders"></li>
-        <li class="members" id="Ellan"></li>
-        <li class="managers" id="Rashida"></li>
-      </ul>
-      <script src="src/domtest.js"></script>
-      <tree>
-        <h3 id="tree_heading"></h3>
-        <div id="tree_data">
-          <div>
-            <div>
-              <div></div>
-              <div>
-                <div></div>
-                <div></div>
-              </div>
-              <div></div>
-            </div>
-            <div>
-              <div></div>
-              <div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="data_showing_window">
-          <h4>HTML source codes(eliminating spaces)</h4>
-          <pre><code id="code_field"></code></pre>
-        </div>
-        <div id="drowing_window"></div>
-        <h4>Drawn DOM tree</h4>
-      </tree>
-    </div>
-    <script src="src/domtree.js"></script>
-    <hr>
-    <div id="outer_links">
-      <h2>Outer Links</h2>
-      <ul class="link-category-container">
-        <li class="link-category-card">
-          <h3>Big Tech</h3>
-          <ul class="link-container">
-            <li class="link-card">
-              <a href="https://www.google.co.jp/" target="_blank" rel="noopener noreferrer">Google</a>
-            </li>
-            <li class="link-card">
-              <a href="https://www.icloud.com/" target="_blank" rel="noopener noreferrer">iCloud</a>
-            </li>
-            <li class="link-card">
-              <a href="https://www.amazon.co.jp/ref=nav_logo" target="_blank" rel="noopener noreferrer">amazon.co.jp</a>
-            </li>
-            <li class="link-card">
-              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-            </li>
-            <li class="link-card">
-              <a href="https://twitter.com/home?lang=ja" target="_blank" rel="noopener noreferrer">Twitter</a>
-            </li>
-          </ul>
-        </li>
-        <li class="link-category-card">
-          <h3>Streaming</h3>
-          <ul class="link-container">
-            <li class="link-card">
-              <a href="https://www.nicovideo.jp/" target="_blank" rel="noopener noreferrer">niconico</a>
-            </li>
-            <li class="link-card">
-              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
-            </li>
-            <li class="link-card">
-              <a href="http://radiko.jp/" target="_blank" rel="noopener noreferrer">radiko</a>
-            </li>
-          </ul>
-        </li>
-        <li class="link-category-card">
-          <h3>THE iDOLM@STER</h3>
-          <ul class="link-container">
-            <li class="link-card">
-              <a href="https://idolmaster.jp/" target="_blank" rel="noopener noreferrer">THE
-                iDOLM@STER OFFICIAL
-                WEB</a>
-            </li>
-            <li class="link-card">
-              <a href="https://imas.gamedbs.jp/cg/" target="_blank" rel="noopener noreferrer">シンデレラガールズ
-                カードギャラリー</a>
-            </li>
-            <li class="link-card">
-              <a href="https://pink-check.school/" target="_blank" rel="noopener noreferrer">デレマスボーダーbot</a>
-            </li>
-          </ul>
-        </li>
-        <li class="link-category-card">
-          <h3>Hanshin Tigers</h3>
-          <ul class="link-container">
-            <li class="link-card">
-              <a href="https://hanshintigers.jp/" target="_blank">阪神タイガース公式サイト</a>
-            </li>
-            <li class="link-card">
-              <a href="https://baseball.yahoo.co.jp/npb/" target="_blank">スポーツナビ</a>
-            </li>
-            <li class="link-card">
-              <a href="http://tora-news.com/" target="_blank">トラニュース</a>
-            </li>
-          </ul>
-        </li>
-        <li class="link-category-card">
-          <h3>Programming Competition</h3>
-          <ul class="link-container">
-            <li class="link-card">
-              <a href="https://atcoder.jp/?lang=ja" target="_blank">AtCoder</a>
-            </li>
-            <li class="link-card">
-              <a href="https://kenkoooo.com/atcoder/#/table/SEALDDR" target="_blank">AtCoder
-                Problems(SEALDDR)</a>
-            </li>
-            <li class="link-card">
-              <a href="https://twitter.com/meguru_comp/status/697008509376835584" target="_blank"
-                rel="noopener noreferrer">めぐる式二分探索</a>
-            </li>
-          </ul>
-        </li>
-        <li class="link-category-card">
-          <h3>Programming</h3>
-          <ul class="link-container">
-            <li class="link-card">
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github</a>
-            </li>
-            <li class="link-card">
-              <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual
-                Studio
-                Code</a>
-            </li>
-            <li class="link-card">
-              <a href="https://cpprefjp.github.io/index.html" target="_blank">cpprefjp -
-                C++日本語リファレンス</a>
-            </li>
-            <li class="link-card">
-              <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
-                target="_blank" rel="noopener noreferrer">Introduction to the DOM - MDN web docs</a>
-            </li>
-            <li class="link-card">
-              <a href="https://docs.emmet.io/cheat-sheet/" target="_blank" rel="noopener noreferrer">Emmet
-                cheat-sheet</a>
-            </li>
-            <li class="link-card">
-              <a href="https://paiza.io/ja" target="_blank" rel="noopener noreferrer">paiza.io</a>
-            </li>
-          </ul>
-        </li>
-        <li class="link-category-card">
-          <h3>Computer Science</h3>
-          <ul class="link-container">
-            <li class="link-card">
-              <a href="http://diestel-graph-theory.com/index.html" target="_blank" rel="noopener noreferrer">Diestel
-                Graph Theory</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </main>
-  <script src="./src/clock.js"></script>
-</body>
-
+    <main>
+      <hr />
+      <div id="contents">
+        <h2>Contents</h2>
+        <ul class="content-box">
+          <li class="content-card">
+            <a href="#outerlinks">Outer Links</a>
+            <ul class="content-attr-category">
+              <li>
+                <p class="content-description">
+                  The list of links to the owner's favorite sites.
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li class="content-card">
+            <a href="#DOMtest">DOM test</a>
+            <ul class="content-attr-category">
+              <li>
+                <p class="content-description">
+                  The section for testing basic programs based on DOM.
+                </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="DOM_test">
+        <h2>DOM test</h2>
+        <h3>Members List</h3>
+        <ul class="members-list">
+          <li id="Ellamae"></li>
+          <li id="Brant"></li>
+          <li class="managers"></li>
+          <li class="members"></li>
+          <li class="members"></li>
+          <li class="managers shareholders"></li>
+          <li class="members" id="Ellan"></li>
+          <li class="managers" id="Rashida"></li>
+        </ul>
+        <script src="src/domtest.js"></script>
+        <br />
+        <iframe
+          src="./domtree.html"
+          width="640"
+          height="640"
+          style="border: 0;"
+        ></iframe>
+      </div>
+      <div id="outer_links">
+        <h2>Outer Links</h2>
+        <ul class="link-category-container">
+          <li class="link-category-card">
+            <h3>Big Tech</h3>
+            <ul class="link-container">
+              <li class="link-card">
+                <a
+                  href="https://www.google.co.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Google</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://www.icloud.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >iCloud</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://www.amazon.co.jp/ref=nav_logo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >amazon.co.jp</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Facebook</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://twitter.com/home?lang=ja"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="link-category-card">
+            <h3>Streaming</h3>
+            <ul class="link-container">
+              <li class="link-card">
+                <a
+                  href="https://www.nicovideo.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >niconico</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >YouTube</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="http://radiko.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >radiko</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="link-category-card">
+            <h3>THE iDOLM@STER</h3>
+            <ul class="link-container">
+              <li class="link-card">
+                <a
+                  href="https://idolmaster.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >THE iDOLM@STER OFFICIAL WEB</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://imas.gamedbs.jp/cg/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >シンデレラガールズ カードギャラリー</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://pink-check.school/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >デレマスボーダーbot</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="link-category-card">
+            <h3>Hanshin Tigers</h3>
+            <ul class="link-container">
+              <li class="link-card">
+                <a href="https://hanshintigers.jp/" target="_blank"
+                  >阪神タイガース公式サイト</a
+                >
+              </li>
+              <li class="link-card">
+                <a href="https://baseball.yahoo.co.jp/npb/" target="_blank"
+                  >スポーツナビ</a
+                >
+              </li>
+              <li class="link-card">
+                <a href="http://tora-news.com/" target="_blank">トラニュース</a>
+              </li>
+            </ul>
+          </li>
+          <li class="link-category-card">
+            <h3>Programming Competition</h3>
+            <ul class="link-container">
+              <li class="link-card">
+                <a href="https://atcoder.jp/?lang=ja" target="_blank"
+                  >AtCoder</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://kenkoooo.com/atcoder/#/table/SEALDDR"
+                  target="_blank"
+                  >AtCoder Problems(SEALDDR)</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://twitter.com/meguru_comp/status/697008509376835584"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >めぐる式二分探索</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="link-category-card">
+            <h3>Programming</h3>
+            <ul class="link-container">
+              <li class="link-card">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >github</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://code.visualstudio.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Visual Studio Code</a
+                >
+              </li>
+              <li class="link-card">
+                <a href="https://cpprefjp.github.io/index.html" target="_blank"
+                  >cpprefjp - C++日本語リファレンス</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Introduction to the DOM - MDN web docs</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://docs.emmet.io/cheat-sheet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Emmet cheat-sheet</a
+                >
+              </li>
+              <li class="link-card">
+                <a
+                  href="https://paiza.io/ja"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >paiza.io</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="link-category-card">
+            <h3>Computer Science</h3>
+            <ul class="link-container">
+              <li class="link-card">
+                <a
+                  href="http://diestel-graph-theory.com/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Diestel Graph Theory</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="./src/clock.js"></script>
+  </body>
 </html>
